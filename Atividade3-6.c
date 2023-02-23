@@ -5,13 +5,13 @@
 int main(void){
 	setlocale(LC_ALL,"portuguese");
 	int num;
-	printf("insira um número: ");
+	printf("insira um nÃºmero: ");
 	scanf("%d",&num);
 	if(num%2==0){
-		printf("\no número inserido é par.");
+		printf("\no nÃºmero inserido Ã© par.");
 	}
 	else{
-		printf("\no número inserido é ímpar");
+		printf("\no nÃºmero inserido Ã© Ã­mpar");
 	}
 	return 0;
 }
