@@ -15,26 +15,26 @@ int main(void){
 	scanf("%f",&num);
 	
 	//nome
-	if(strcmp(nome,"Jo„o")==0||strcmp(nome,"jo„o")==0){
-		printf("seu nome È Jo„o");
+	if(strcmp(nome,"Jo√£o")==0||strcmp(nome,"jo√£o")==0){
+		printf("seu nome √© Jo√£o");
 	}
 	else if(strcmp(nome,"Maria")==0||strcmp(nome,"maria")==0){
-		printf("seu nome È Maria");
+		printf("seu nome √© Maria");
 	}
-	else if(strcmp(nome,"Jo„o")==1||strcmp(nome,"jo„o")==1||strcmp(nome,"Maria")==1||strcmp(nome,"maria")==1){
-		printf("seu nome n„o È Jo„o nem Maria");
+	else if(strcmp(nome,"Jo√£o")==1||strcmp(nome,"jo√£o")==1||strcmp(nome,"Maria")==1||strcmp(nome,"maria")==1){
+		printf("seu nome n√£o √© Jo√£o nem Maria");
 	}
 	
 	//idade
 	if(num<18){
-		printf("\nvocÍ ainda È menor de idade");
+		printf("\nvoc√™ ainda √© menor de idade");
 	num2=18-num;
 		printf("\nfaltam %d anos para atingir a maioridade",num2);
 	}
 	else if(num>=18){
-		printf("vocÍ j· È maior de idade");
+		printf("voc√™ j√° √© maior de idade");
 	num3=num-18;
-		printf("\natingiu a maioridade h· %d anos",num3);
+		printf("\natingiu a maioridade h√° %d anos",num3);
 	}
 	printf("\nmaioridade: 18 anos");
 	return 0;
