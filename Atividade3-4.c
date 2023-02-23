@@ -10,9 +10,9 @@ int main(void){
 	scanf("%s",let);
 	
 	if(strcmp(let,"A")==0||strcmp(let,"a")==0||strcmp(let,"E")==0||strcmp(let,"e")==0||strcmp(let,"I")==0||strcmp(let,"i")==0||strcmp(let,"O")==0||strcmp(let,"o")==0||strcmp(let,"U")==0||strcmp(let,"u")==0){
-		printf("\na letra inserida é uma vogal");
+		printf("\na letra inserida Ã© uma vogal");
 	}
 	else{
-		printf("\na letra inserida é uma consoante");
+		printf("\na letra inserida Ã© uma consoante");
 	}
 }
