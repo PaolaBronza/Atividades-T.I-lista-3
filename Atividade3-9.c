@@ -5,11 +5,11 @@
 int main(void){
 	setlocale(LC_ALL,"portuguese");
 	int num,num2,num3;
-	printf("insira um número: ");
+	printf("insira um nÃºmero: ");
 	scanf("%d",&num);
-	printf("insira um número: ");
+	printf("insira um nÃºmero: ");
 	scanf("%d",&num2);
-	printf("insira um número: ");
+	printf("insira um nÃºmero: ");
 	scanf("%d",&num3);
 	
 	if(num>num2&&num2>num3){
