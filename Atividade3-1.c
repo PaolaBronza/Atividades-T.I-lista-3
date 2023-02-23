@@ -5,25 +5,25 @@
 int main(void){
 	setlocale(LC_ALL,"portuguese");
 	int num;
-	printf("Insira um número: ");
+	printf("Insira um nÃºmero: ");
 	scanf("%d",&num);
 	
-	//par ímpar
+	//par Ã­mpar
 	if(num %2==0){
-		printf("o número %d é par",num);
+		printf("o nÃºmero %d Ã© par",num);
 	}
 	else{
-		printf("o número %d é ímpar",num);
+		printf("o nÃºmero %d Ã© Ã­mpar",num);
 	}
 	//positivo negativo
 	if(num>0){
-		printf("\no número %d é maior que 0",num);
+		printf("\no nÃºmero %d Ã© maior que 0",num);
 		}
 	else if(num<0){
-		printf("\no número %d é menor que 0",num);
+		printf("\no nÃºmero %d Ã© menor que 0",num);
 	}
 	else if(num==0){
-		printf("\no número %d é igual a 0");
+		printf("\no nÃºmero %d Ã© igual a 0");
 	}
 	return 0;
 }
