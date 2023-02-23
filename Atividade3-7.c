@@ -10,14 +10,14 @@ int main (void){
 	printf("digite seu nome: ");
 	scanf("%s",&nome);
 	
-	if(strcmp(nome,"Jo„o")==0||strcmp(nome,"jo„o")==0){
-		printf("seu nome È Jo„o");
+	if(strcmp(nome,"Jo√£o")==0||strcmp(nome,"jo√£o")==0){
+		printf("seu nome √© Jo√£o");
 	}
 	else if(strcmp(nome,"Maria")==0||strcmp(nome,"maria")==0){
-		printf("seu nome È Maria");
+		printf("seu nome √© Maria");
 	}
-	else if(strcmp(nome,"Jo„o")==1||strcmp(nome,"jo„o")==1||strcmp(nome,"Maria")==1||strcmp(nome,"maria")==1){
-		printf("seu nome n„o È Jo„o nem Maria");
+	else if(strcmp(nome,"Jo√£o")==1||strcmp(nome,"jo√£o")==1||strcmp(nome,"Maria")==1||strcmp(nome,"maria")==1){
+		printf("seu nome n√£o √© Jo√£o nem Maria");
 	}
 	return 0;
 }
