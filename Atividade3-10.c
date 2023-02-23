@@ -12,10 +12,10 @@ int main(void){
 	scanf("%d",&renda);
 	
 	if(idade>=18&&renda<=1500){
-		printf("Parabéns, você é elegível para receber o benefício!");
+		printf("ParabÃ©ns, vocÃª Ã© elegÃ­vel para receber o benefÃ­cio!");
 	}
 	else{
-		printf("Infelizmente, você não é elegível para receber o benefício.");
+		printf("Infelizmente, vocÃª nÃ£o Ã© elegÃ­vel para receber o benefÃ­cio.");
 	}
 	return 0;
 }
