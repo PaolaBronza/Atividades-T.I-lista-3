@@ -10,13 +10,13 @@ int main(void){
 	printf("insira sua altura: ");
 	scanf("%d",&altura);
 	imc=peso/(altura^2);
-	printf("seu imc È: %d",imc);
+	printf("seu imc √©: %d",imc);
 	
 	if(imc>0 && imc<18,5){
 		printf("\nabaixo do peso");
 	}
 	else if(imc>=18,5 && imc<24,99){
-	printf("\nmÈdia");
+	printf("\nm√©dia");
 	}
 	else if(imc>=25 && imc<29,00){
 		printf("\nsobrepeso");
@@ -24,6 +24,6 @@ int main(void){
 	else if(imc>30){
 		printf("\nobesidade");
 	}
-	printf("\n- imc v·lido para pessoas de 20 a 60 anos");
+	printf("\n- imc v√°lido para pessoas de 20 a 60 anos");
 	return 0;
 }
