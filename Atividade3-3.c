@@ -5,19 +5,19 @@
 int main(void){
 	setlocale(LC_ALL,"portuguese");
 	int num,num2;
-	printf("insira um número: ");
+	printf("insira um nÃºmero: ");
 	scanf("%d",&num);
-	printf("insira um número: ");
+	printf("insira um nÃºmero: ");
 	scanf("%d",&num2);
 	
 	if(num>num2){
-		printf("%d é maior que %d",num,num2);
+		printf("%d Ã© maior que %d",num,num2);
 	}
 	else if(num<num2){
-		printf("%d é maior que %d",num2,num);
+		printf("%d Ã© maior que %d",num2,num);
 	}
 	else if(num==num2){
-		printf("os números inseridos são iguais");
+		printf("os nÃºmeros inseridos sÃ£o iguais");
 	}
 	return 0;
 }
